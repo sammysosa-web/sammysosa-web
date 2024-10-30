@@ -27,7 +27,12 @@
 
 /* style for the footer containing the images credit */
 
-
+.sam{
+  background-color: #228B22;
+   text-align: center; 
+    color:red;
+     font-size:16px;
+}
 
 /* DO NOT EDIT CSS CODE BELOW */
 
