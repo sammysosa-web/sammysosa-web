@@ -1,0 +1,58 @@
+<html>
+<head>
+<a href="SpotTheDifference/index.html">Spot the Difference Game</a>
+<div class=grassy garden >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spot the Difference - Samantha Payero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Section -->
+    <div class="background">
+        <!-- Header Box -->
+        <div class="header-box">
+            <h1>Samantha Payero</h1>
+        </div>
+
+        <!-- Spot the Difference Section -->
+        <section class="spot-the-difference">
+            <h2>Spot the Difference</h2>
+
+            <!-- Level 1 -->
+            <div class="level">
+                <h3>Level 1</h3>
+                <div class="level-content">
+                    <img src="level1-image1.jpg" alt="Level 1 Image 1">
+                    <img src="level1-image2.jpg" alt="Level 1 Image 2">
+                </div>
+            </div>
+
+            <!-- Level 2 -->
+            <div class="level">
+                <h3>Level 2</h3>
+                <div class="level-content">
+                    <img src="level2-image1.jpg" alt="Level 2 Image 1">
+                    <img src="level2-image2.jpg" alt="Level 2 Image 2">
+                </div>
+            </div>
+
+            <!-- Level 3 -->
+            <div class="level">
+                <h3>Level 3</h3>
+                <div class="level-content">
+                    <img src="level3-image1.jpg" alt="Level 3 Image 1">
+                    <img src="level3-image2.jpg" alt="Level 3 Image 2">
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
+
+
