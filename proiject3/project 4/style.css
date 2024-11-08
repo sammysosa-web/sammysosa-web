@@ -1,71 +1,259 @@
-/* Reset some basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Background styling */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('background-image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    color: #fff;
-}
-
-/* Header Box */
-.header-box {
+    background: rgb( 68 , 200, 246);
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  div {
+    border:  3px black solid;
+  }
+  
+  #link-home {
     text-align: center;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 50px;
-    border-radius: 10px;
-}
-
-.header-box h1 {
-    font-size: 3rem;
-}
-
-/* Spot the Difference Section */
-.spot-the-difference {
-    padding: 20px;
+    font-size: large;
+  
+  }
+  
+  #Link-home-text {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    margin-top: 30px;
-}
-
-.spot-the-difference h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-/* Levels */
-.level {
-    margin-top: 30px;
-}
-
-.level h3 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.level-content {
+    font-size: large;
+  }
+  
+  .container{
+    background-image: url('pinksky.png');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
     display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.level-content img {
-    max-width: 400px;
-    border: 3px solid #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease;
-}
-
-.level-content img:hover {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .container > .title:hover{
+    background-color: grey;
+  }
+  
+  .container > .headings:hover{
+    background-color: whitesmoke;
+  }
+  
+  .container-bonus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border:none
+  }
+  
+  .headings {
+    color: purple;
+    text-shadow: -2px 2px aqua;
+    display: flex;
+    text-decoration: underline;
+    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 6px purple dashed;
+    border-style: double;
+    margin: 25px;
+    transition: transform 0.3s;
+  }
+  
+  .headings:hover{
     transform: scale(1.05);
-}
+  }
+  
+  .title {
+    border:  4px yellow dotted;
+    color: white;
+    text-shadow: -2px 2px yellow;
+    display: flex;
+    text-decoration: underline;
+    width: 575px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 100px;
+    transition: transform 0.3s;
+  }
+  
+  .title:hover{
+    transform: scale(1.05);
+  }
+  
+  .imgofme {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .imgofme:hover{
+    transform: scale(1.05);
+  }
+  
+  .ol {
+    text-align: center;
+    font-size: large;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+  }
+  
+  .centered-list {
+    display: inline-block; /* Make the list inline-block */
+    text-align: left; /* Optional: left-align the list items for better readability */
+  }
+  
+  #easy {
+    color: limegreen;
+    text-shadow: 1px 1px white;
+  }
+  
+  #medium {
+    color: orange;
+    text-shadow: 1px 1px darkorange;
+  }
+  
+  #hard {
+    color: red;
+    text-shadow: 1px 1px black;
+  }
+  
+  .container2{
+    background-image: url('PixARTbackground_full.jpeg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+  }
+  
+  /* Basic styling for the wave container */
+  
+  .wave {
+  
+    border: 4px solid #192A51;
+  
+    background-color: rgb( 159 , 237, 259);
+  
+    text-shadow: 2px 2px white;
+  
+    text-decoration: underline;
+  
+    color: rgb( 68 , 200, 246);
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 60px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease;  /* Adjust the speed for smooth expansion */
+  
+  }
+  
+  
+  /* Expanding effect on hover */
+  
+  .wave:hover {
+  
+    height: 350px;  /* Adjust to fit content */
+  
+  }
+  
+  .wave2 {
+  
+    border: 4px solid #192A51;
+  
+    background-color: greenyellow;
+  
+    text-shadow: 2px 2px white;
+  
+    text-decoration: underline;
+  
+    color: limegreen;
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 60px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease;
+  
+  }
+  
+  .wave2:hover {
+  
+    height: 480px;
+  
+  }
+  
+  .wave3 {
+  
+    border: 4px solid #192A51;
+  
+    background-color: darkgoldenrod;
+  
+    text-shadow: 2px 2px darkorange;
+  
+    text-decoration: underline;
+  
+    color: orange;
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 60px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease;
+  
+  }
+  
+  .wave3:hover {
+  
+    height: 480px;
+  
+  }
+  
+  

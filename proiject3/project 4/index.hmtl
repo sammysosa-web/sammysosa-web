@@ -1,56 +1,92 @@
-<html>
-<head>
-<a href="SpotTheDifference/index.html">Spot the Difference Game</a>
-<div class=grassy garden >
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spot the Difference - Samantha Payero</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html>
+  <head>
+    <link rel="stylesheet" href="/weblab/footer.css"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Spot the Difference Game</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href=style.css">
 
-    <!-- Background Section -->
-    <div class="background">
-        <!-- Header Box -->
-        <div class="header-box">
-            <h1>Samantha Payero</h1>
+      <div class="container">
+        <div class="title">
+          <h1>Spot The Difference!</h1>
+        </div>
+        <div class="container-bonus">
+          <div class="headings">
+            <h1>Thomas A. Edison CTE HS</h1>
+            
+            <h2>Final Project Ghost School</h2>
+            
+            <h2>Samantha payero</h2>
+          </div>
+          <div>
+          <img class="imgofme" src="imgofme" alt="imgofme" width="35%;"
+        
+               </div> 
+      <!-- Wave effect container for instructions or game levels -->
+
+      <div class="container2">
+        <div class="wave" id="easy-level">
+
+          <h2>Instructions</h2>
+
+          <p>Hover over this section to reveal more details about the game, that way you can follow the instructions carefully to play each level!</p>
+
+          <p>In this game of, "Spot the Difference" there are 3 levels you can choose from depending on how difficult you'd like to play the game.</p>
+
+          <p>These 3 levels are:</p>
+
+          <div class="ol">
+            <ol class="centered-list">
+              <li id="easy">Easy</li>
+              <li id="medium">Medium</li>
+              <li id="hard">Hard</li>
+            </ol>
+          </div>
+
+          <p>Throughout each level, you are able to see multiple objects, you have only a few seconds to look at each of them. After that, BOOM! Your screen turns black and turns back on shortly after.</p>
+          <p>Only up to 3 out of all the objects have changed. As you progress through each level, spotting these differences will only get harder and harder. Can you spot the difference?</p>
         </div>
 
-        <!-- Spot the Difference Section -->
-        <section class="spot-the-difference">
-            <h2>Spot the Difference</h2>
+        <div class="wave2" id="easy-level">
+          <h2>Easy Level</h2>
+          <!-- Rollover image for the 'Easy' level -->
 
-            <!-- Level 1 -->
-            <div class="level">
-                <h3>Level 1</h3>
-                <div class="level-content">
-                    <img src="level1-image1.jpg" alt="Level 1 Image 1">
-                    <img src="level1-image2.jpg" alt="Level 1 Image 2">
-                </div>
-            </div>
+          <div class="level">
 
-            <!-- Level 2 -->
-            <div class="level">
-                <h3>Level 2</h3>
-                <div class="level-content">
-                    <img src="level2-image1.jpg" alt="Level 2 Image 1">
-                    <img src="level2-image2.jpg" alt="Level 2 Image 2">
-                </div>
-            </div>
+            <h3>Spot the Difference! Difficulty: <span style="color: lightgreen">Easy</span></h3>
 
-            <!-- Level 3 -->
+            <img src="lvl1.png" alt="Easy Level Image" width="500" 
+            
+                 <p>You have 5 seconds to view the items in the room. Drag the cursor out of the room once the 5 seconds are up!</p>
+          
+          <div class="wave3" id="medium level">
+            <h2>medium Level</h2>
+            <!-- Rollover image for the 'Easy' level -->
+
             <div class="level">
-                <h3>Level 3</h3>
-                <div class="level-content">
-                    <img src="level3-image1.jpg" alt="Level 3 Image 1">
-                    <img src="level3-image2.jpg" alt="Level 3 Image 2">
-                </div>
-            </div>
-        </section>
-    </div>
+
+              <h3>Spot the Difference! Difficulty: <span style="color: #ffb826">medium</span></h3>
+
+              <img src="lvl2.png" alt="lvl2.png" width="500"
+
+                   onmouseover="this.src='lvl2.png';"
+
+                   onmouseout="this.src='lvl22.png';">
+              
+              <div class="wave4" id="Hard level">
+                <h2>Hard Level</h2>
+                <!-- Rollover image for the 'Easy' level -->
+
+                <div class="level">
+
+                  <h3>Spot the Difference! Difficulty: <span style="color: #ff0000">Hard</span></h3>
+
+                  <img src="lvl3.png." alt="lvl3.png" width="500"
+
+                       onmouseover="this.src='lvl3.png';"
+
+                       onmouseout="this.src='lvl33.png';">
+
 
 </body>
 </html>
