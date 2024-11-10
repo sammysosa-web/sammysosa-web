@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="/weblab/footer.css"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Spot the Difference Game</title>
   </head>
   <body>
-    <link rel="stylesheet" href=style.css">
+    <link rel="stylesheet" href="prj4.css">
 
       <div class="container">
         <div class="title">
@@ -19,7 +19,7 @@
             <h2>Samantha payero</h2>
           </div>
           <div>
-          <img class="imgofme" src="imgofme" alt="imgofme" width="35%;"
+          <img class="imgofme" src="me.png" alt="me.png" width="35%;"
         
                </div> 
       <!-- Wave effect container for instructions or game levels -->
@@ -87,8 +87,5 @@
 
                        onmouseout="this.src='lvl33.png';">
 
-
-</body>
-</html>
-
-
+ </body>
+ </html>
